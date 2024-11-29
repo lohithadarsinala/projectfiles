@@ -1,0 +1,10 @@
+.box
+{
+    background: linear-gradient(pink,white,aqua);
+border: 5px double red;
+width:fit-content;
+border-top-left-radius: 80px;
+border-bottom-right-radius: 80px;
+padding: 20px;
+margin: 20px 30px 40px 50px;
+}

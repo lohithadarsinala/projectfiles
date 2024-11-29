@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+.x1{
+    height:100px;
+    width:100px;
+    background-color:blueviolet;
+    padding:20px;
+    border-radius: 50px;
+}
+.x2{
+    height:60px;
+    width:60px;
+    background-color:pink;
+    padding:15px;
+    border-radius: 50px; 
+}
+.x3{
+    height:30px;
+    width:30px;
+    background-color:greenyellow;
+    padding:5px;
+    border-radius: 50px; 
+
+}
