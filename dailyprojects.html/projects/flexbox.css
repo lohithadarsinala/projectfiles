@@ -1,0 +1,26 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    height:300px;
+    width:400px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    height:50px;
+    width:80px;
+    background-color: red;
+    border: 1px solid white;
+    color:white;
+}
+.box4{  
+    flex-shrink: 2;
+}
+.box3{
+    flex-basis: 200px;
+}
