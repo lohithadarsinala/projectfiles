@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.card{
+    margin: auto;
+    border:2px solid white;
+    border-radius:20px;
+    height:400px;
+    width:250px;
+    padding: 20px;
+    justify-content:center;
+    background-color: white;
+    display:block;
+}
+#id{  
+    border-radius:8px;
+}
+img{
+   height:210px;
+   width:210px; 
+   border-radius:25px;
+   margin:auto;
+}
+p{
+    font-size:15px;
+    background-color: white;
+    text-align:center;
+}
+h2{
+    background-color: white;
+    text-align: center;
+}
