@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align:center;
+    font-family: cursive;
+}
+.parent{
+    gap:5px;
+    height:80vh;
+    width:80vw;
+    border:1px solid white;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.child{
+    border:1px solid white;
+    background-color: red;
+    color:white;
+}
+.child1{
+    grid-row:1/4; 
+    background-image: url(https://i.pinimg.com/736x/7b/43/cb/7b43cbe51d367d11375d616354e3c465.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill;
+    border-radius: 20px;
+}
+.child2{
+    grid-column:2/4;
+    background-image: url(https://img.pikbest.com/ai/illus_our/20230423/90f6c2a7766b2d5b6b7443afc5adcc9a.jpg!w700wp);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill;  
+    border-radius:20px;
+}
+.child3{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/026/304/994/small_2x/outdoor-christmas-decorations-and-a-beautifully-decorated-christmas-tree-ai-generated-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill;  
+    border-radius:20px;
+}
+.child4{
+    background-image: url(https://uchify.com/wp-content/uploads/2023/12/image5-min-1.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill;  
+    border-radius:20px;
+}
+.child5{
+    background-color: burlywood;
+    background-image: url(https://s.widget-club.com/images/YyiR86zpwIMIfrCZoSs4ulVD9RF3/53cc15529c3c236aea98b495b9824606/7d0e6194020b98fd14325c994d5d8b25.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill; 
+    border-radius:20px; 
+}
+.child6{
+    grid-column: 4/5;
+    grid-row:2/4;
+    background-image: url(https://wallpapercave.com/wp/wp7988427.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill;  
+    border-radius:20px; 
+}
+.child7{
+    background-image: url(https://windybot.com/thumb/-KwGQJ2JlzODoLhBdJro.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill; 
+    border-radius:20px;
+}
+.child8{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/034/637/361/non_2x/ai-generated-christmas-landscape-with-winter-snow-covered-trees-free-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit:fill; 
+    border-radius:20px;
+}

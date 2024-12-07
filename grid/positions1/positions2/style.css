@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100vh;
+    width:100vw;
+}
+.box
+{
+    height:150px;
+    width:150px;
+    margin:10px;
+    background-color: red;
+    border:1px solid white;
+}
+h1{
+    text-align: center;
+}
+.box1{
+    position:sticky;
+    top:0;
+    background-image: url(https://img.freepik.com/premium-photo/bunch-pink-roses-with-green-leaves-pink-petals_865967-488754.jpg);
+}
+.box2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcVdx1MmfNIBB4cUMGASLgNRTh1Z7TIzEYySBe35ooxcJNnIpxKdUXALzhM8tQA6zqC0Q&usqp=CAU);
+}
+.box3{
+    background-image: url(https://t3.ftcdn.net/jpg/00/41/65/04/360_F_41650498_Xzp3grpRllhAOL0IU4YPDlFJ4UAkMAPj.jpg);
+}
+.box4{
+    background-image: url(https://st3.depositphotos.com/4674983/35170/i/450/depositphotos_351709822-stock-photo-arrangement-pink-living-roses-carnation.jpg);
+}
+.box5{
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/22/08/04/rose-1345289_640.jpg);
+}

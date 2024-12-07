@@ -1,0 +1,25 @@
+p::first-letter{
+    color:green;
+    font-size: 50px;
+}
+p::first-line{
+    color:blueviolet;
+}
+p::before{
+    content:' ';
+}
+p::after{
+    content:'\0022';
+}
+.box{
+    height:100px;
+    width:100px;
+    margin:10px;
+    border:1px solid white;
+    background-color: red;
+    
+}
+.box1:hover{
+    background-color:aqua;
+    border-radius: 50px;
+}

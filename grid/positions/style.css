@@ -1,0 +1,11 @@
+.a{
+    float:left;
+}
+.b{
+    float:right;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    color:rgb(4, 105, 71);
+}

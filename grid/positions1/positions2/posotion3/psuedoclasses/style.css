@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20240408/pngtree-green-rain-village-garden-boy-cycle-image-3d-art-image_15709464.jpg) ;
+    background-size: cover;
+    object-fit: fill;
+}
+h1{
+    font-family: cursive;
+    text-align:center;
+}
+.box
+{
+     height:100px;
+     width:100px;
+     background-color: red;
+     border:1px solid white;
+     background-size: cover;
+     object-fit:fill;
+}
+.box1{
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/029/890/857/small_2x/landscape-of-green-crops-and-field-4k-clip-of-farming-and-agriculturist-with-seeding-of-rice-young-plant-and-field-rice-field-and-farmland-thailand-agriculture-and-farm-in-asia-video.jpg);
+}
+.box2
+{
+    position:absolute;
+    top: 0;
+    right: 0;
+    background-image: url(https://thumbs.dreamstime.com/b/beautiful-village-rainy-day-natural-beauty-small-houses-nestled-beneath-cloudy-sky-picturesque-lies-foot-towering-320579327.jpg);
+}
+.box3
+{
+    position:absolute;
+    bottom: 0;
+    background-image: url(https://www.shutterstock.com/image-photo/beautiful-scenery-green-terraced-rice-260nw-1801595536.jpg);
+}
+.box4
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(https://img.freepik.com/premium-photo/movement-clouds-agricultural-field-with-wheat-storm-rain-gray-cloud-floats-across-sky-with-visible-rain-band-heavy-rain-village-summer_678914-3489.jpg);
+}
+.box5
+{
+      position:absolute;
+      bottom:50%;
+      left:45%;
+      top:50%;
+      right:50%;
+      background-image: url(https://img.freepik.com/premium-photo/rainy-day-with-yellow-flowers-house-background_1298768-70.jpg);
+}
