@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    height:100px;
+    width:100px;
+    margin:10px;
+    border:1px solid white;
+    background-color: red;
+}
+.box1
+{
+  height: 100px;
+  width:100px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIgDkudXvevjr0UgHhA2IE2vlVY9Q2FagKA&s);
+}
+.box1:hover{
+    background-image: url(https://images.playground.com/5946872c0a8845e989363e48ba3b147a.jpeg);
+    border-radius: 50px;
+}
+.box2:hover
+{
+  background-color:yellow ;
+  border-radius: 50px;
+}

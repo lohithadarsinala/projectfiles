@@ -1,0 +1,16 @@
+p{
+    text-align:center;
+    color:blueviolet;
+    font-size: 48px;
+    animation:wish 5s ease infinite;
+}
+@keyframes wish{
+    0%{
+    }
+    100%{
+       transform:translatey(200px);
+    }
+}
+p:nth-child(even){
+    animation-delay:0.3s;
+}

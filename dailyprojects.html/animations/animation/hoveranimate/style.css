@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ body{
+    height:100%;
+    /* width:100vw; */
+    background-color: cornsilk;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+
+  }
+h1{
+  text-align:center;
+  font-family: cursive;
+  color:cornflowerblue;
+}
+h1:hover{
+  transform:scale(1.05);
+}
+.container{
+  height: 30em;
+  width: 30em;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  /* border: 1px solid black; */
+  gap: 10px;
+  border-radius: 20px;
+  margin: 80px ;
+  }
+   .container:hover{
+    transform: translateX(200px) translateY(200px) rotate(360deg);
+    transition: all 3s ease;
+   }
+/* @keyframes jumping-box{
+  from{
+  }
+  to{
+    transform:translateY(500px) translateX(300px);
+  } */
+
+ /* container:hover{ */
+        /* transform:translateX(200px) translateY(100px); 
+/* }  */
+.box:hover
+{
+  background-color: red;
+  transition: all 1s ease;
+  transform: translateX(200px) translateY(300px) rotate(360deg);
+}
+.box1{
+  background-image: url(https://watermark.lovepik.com/photo/20211122/large/lovepik-landscape-waterfall-picture_500721629.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+  
+}
+.box1:hover{
+      border-radius: 50px;
+      }
+.box2{
+  background-image: url(https://images.nationalgeographic.org/image/upload/v1638882947/EducationHub/photos/tourists-at-victoria-falls.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box2:hover{
+  border-radius: 50px;
+}
+.box3{
+  background-image: url(https://travelsbyizzy.com/wp-content/uploads/Girl-in-Na-Muang-waterfall-2-infinity-pool-scaled.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box3:hover{
+  border-radius:50px;
+}
+.box4{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/026/432/381/large_2x/natural-waterfall-wallpaper-photo.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box4:hover{
+  border-radius: 50px;
+}
+.box5{
+  background-image: url(https://static.wixstatic.com/media/59aa77_58e45307d1a347b88ed1bddc28a91054~mv2.jpg/v1/fill/w_568,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/59aa77_58e45307d1a347b88ed1bddc28a91054~mv2.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box5:hover{
+  border-radius:50px;
+}
+.box6{
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/25/12/28/iceland-1768744_640.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box6:hover{
+  border-radius: 50px;
+}
+.box7{
+  background-image: url(https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638882947/EducationHub/photos/tourists-at-victoria-falls.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box7:hover{
+  border-radius: 50px;
+}
+.box8{
+  background-image: url(https://offloadmedia.feverup.com/secretchicago.com/wp-content/uploads/2022/05/08093454/Waterfall-in-the-Lower-Dells-Matthiessen-State-Park-1024x598.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box8:hover{
+  border-radius: 50px;
+}
+.box9{
+  background-image: url(https://beautifulbastar.com/wp-content/uploads/2022/12/Chitrakote-Waterfalls-A-Garland-of-the-waterfall-created-by-nature.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.box9:hover{
+  border-radius: 50px;
+}
+

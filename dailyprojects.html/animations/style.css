@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color: red;
+    animation: jumping-box 5s ease;
+}
+.box:hover{
+    background-color: aqua;
+    border-radius: 50px;
+}
+@keyframes jumping-box{
+    from{  
+
+    }
+    To{
+        transform:translate(500px);
+    }
+}
+img
+{
+    animation:smiley 5s ease infinite alternate-reverse;
+}
+@keyframes smiley{
+    0%{
+    }
+    100%{
+        transform:translatey(500px);
+    }
+}
+img:nth-child(even){
+    animation-delay: 0.3s;
+}
