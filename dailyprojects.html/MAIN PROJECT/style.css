@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height:100vh;
+    background: linear-gradient(#8A2BE2,white);
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-right:150px;
+    
+}
+.righttop{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.title{
+    color:white;
+    background-color: violet;
+    border:0;
+    border-radius: 5px;
+    width:max-content;
+    margin:20px 200px 10px;
+    padding:10px;
+}
+.h2{
+   margin:20px 200px 10px;
+   color:white;
+}
+.p1{
+    margin:20px 200px 10px;
+    color:white;
+}
+.buttons{
+    margin:20px 200px 10px;
+}
+.button1{
+     background-color: violet;
+     padding:10px;
+     border-radius: 10px;
+     border:0;
+     color:white;
+}
+.button2{
+    background-color:violet;
+    padding:10px;
+    border-radius: 10px;
+    border:0;
+    color:white;
+}
+section{
+     display:flex;   
+}
+.abe{
+    gap: 450px;
+}
+div>img{
+    border-radius: 35px;
+}
+.about{
+    display:flex;
+    gap: 250px;        
+}
+.ab{
+    text-align: center;
+    color: purple;
+}
+.abcd{
+    text-align: center;
+    color: purple;
+}
+.details{
+    display:flex;
+    gap:90px;
+}
+.edu{
+    border:0;
+    border-radius: 10px;
+    padding:20px;
+    background-color: lightyellow;
+}
+.skills{
+    border:0;
+    border-radius:10px;
+    padding:20px;
+    background-color: lightyellow;
+}
+.project{
+    display:grid;
+    border:0;
+    padding:20px; 
+    justify-content: center; 
+    border-radius: 15px;
+    background-color: lightyellow;
+}
+.projects{
+    gap:150px;
+}
+.project>button{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.project>img{
+    border-radius: 10px;
+}
+.m{
+    border:0;
+    color:white;
+    background-color: purple;
+}
+.n{
+    border:0;
+    color:white;
+    background-color: purple;
+}
+.o{
+    border:0;
+    color:white;
+    background-color: purple;
+}
+.p{
+    color:purple;
+}
+.q{
+    color:purple;
+}
+.r{
+    text-align: center;
+    color:purple;
+}
+.Hello{
+    text-align:center;
+    border:0;
+    background-color: lightyellow;
+    width:fit-content;
+    padding:30px;
+    margin:auto; 
+    border-radius: 20px;
+}
+.hi{
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    border:0;
+    background-color: purple;
+}
+.end{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    font-size: 25px;
+}
+@media(max-width:576px){
+    
+}
