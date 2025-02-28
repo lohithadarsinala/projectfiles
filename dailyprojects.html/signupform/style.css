@@ -1,0 +1,33 @@
+*{ 
+    margin: auto;
+    max-width:300px;
+    padding:5px;
+    box-sizing:border-box;
+}
+body{
+    border:0; 
+    border-radius: 15px;
+    background-color: rgb(230, 226, 238);
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.a{
+   text-align: center;
+   background-color: rgb(184, 148, 218);
+   border-radius: 15px;
+   padding:5px;
+   margin:auto;
+}
+.b{
+    border:0;
+    border-radius: 10px;
+    background-color: gray;
+}
+.x{
+    display:inline;
+    width:auto;
+}
+
+

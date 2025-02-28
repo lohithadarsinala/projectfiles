@@ -59,6 +59,10 @@ header{
     border:0;
     color:white;
 }
+.image{
+    margin-left: 105px;
+    /*justify-content: right;*/
+}
 section{
      display:flex;   
 }
@@ -70,7 +74,7 @@ div>img{
 }
 .about{
     display:flex;
-    gap: 250px;        
+    gap: 100px;        
 }
 .ab{
     text-align: center;
@@ -82,19 +86,27 @@ div>img{
 }
 .details{
     display:flex;
-    gap:90px;
+    gap:40px;
 }
 .edu{
     border:0;
     border-radius: 10px;
-    padding:20px;
+    padding:8px;
     background-color: lightyellow;
+}
+.edu:hover{
+    transition:2s ease;
+    transform:rotate(360deg);
 }
 .skills{
     border:0;
     border-radius:10px;
-    padding:20px;
+    padding:8px;
     background-color: lightyellow;
+}
+.skills:hover{
+    transition:2s ease;
+    transform:rotate(360deg);
 }
 .project{
     display:grid;
@@ -106,6 +118,18 @@ div>img{
 }
 .projects{
     gap:150px;
+}
+.project:hover
+{
+    transform:scale(1.05);
+}
+.project:hover
+{
+    transform:scale(1.05);
+}
+.project:hover
+{
+    transform:scale(1.05);
 }
 .project>button{
     width: fit-content;
@@ -157,12 +181,128 @@ div>img{
     border:0;
     background-color: purple;
 }
+.hi:hover 
+{
+  transform: scale(1.1)
+}
 .end{
     display:flex;
     justify-content: center;
     gap:30px;
     font-size: 25px;
 }
-@media(max-width:576px){
-    
+@media(max-width:576px)
+{
+    header>img{
+        height:40px;
+        width:50px;
+    }
+    .righttop{
+        display: flex;
+        justify-content: right;
+        font-size: 10px;
+        text-align: right;
+        gap:15px;
+    }
+    .title{
+        text-align: left;
+        margin-left: 8px;
+        font-size: 8px;
+    }
+    .h2{
+        text-align: left;
+        margin-left: 8px;
+        font-size: 10px;
+    }
+    .p1{
+        text-align: left;
+        margin-left: 8px;
+        font-size: 10px;
+    }
+    .buttons{
+        display: flex;
+        text-align: left;
+        margin-left: auto;
+        gap:10px;
+        padding:5px;
+    }
+    .button1{
+        font-size: 10px;
+        width:50px;
+    }
+    .button2{
+        font-size: 10px;
+        width:50px;
+    }
+    .projects{
+        flex-direction: column;
+        gap:18px;
+        font-size: 10px;
+        font-family: sans-serif;
+        padding: 5px;
+        margin:5px;
+        text-align: center;
+    }
+    .project>button{
+        padding:8px;
+    }
+    .project>img{
+        border-radius: 15px;
+        height:120px;
+        width:300px;
+    }
+    main>section>.image{
+        margin-left: -587px;
+        justify-content: left;  
+    }
+    .hu{
+        margin-left: -45px;
+        font-size: 10px;
+    }
+    .edu{
+        font-size: 5px;
+        margin-left: -10px;
+    }
+    .skills{
+        font-size: 5px;
+        margin-left: -10px;
+    }
+    .Hello{
+        display:flex;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        padding:15px;
+    }
+    .r{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    footer>.end{
+        font-size: 20px;
+        justify-content: center;
+    }
+    footer>img{
+        height:30px;
+        width:30px;
+    }
+    @media(max-width:760px)
+    {
+        header>img{
+            height: 50px;
+            width:50px;
+        }
+        .righttop
+        {
+            display: flex;
+            justify-content: right;
+            font-size: 10px;
+            text-align: right;
+            gap:15px;
+        }
+        .image{
+           margin-left: -587px;
+           justify-content: left;  
+        }
+    }
 }
