@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateElement</title>
+    <script>
+        function LoadClick(){
+      pic = document.createElement(img)
+      pic.src = "../public/images/Fruits.jpg"
+      pic.height = "100"
+      pic.width = "100"
+      pic.border = "1"
+      document.getElementById("container").appendChild("pic")
+        }
+    </script>
+</head>
+<body>
+    <h2>Create Element</h2>
+    <button onClick="LoadClick()">Load Image</button>
+    <div id="container">
+
+    </div>
+</body>
+</html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -94,21 +96,15 @@ div>img{
     padding:8px;
     background-color: lightyellow;
 }
-.edu:hover{
-    transition:2s ease;
-    transform:rotate(360deg);
-}
-.skills{
+.skills
+{
     border:0;
     border-radius:10px;
     padding:8px;
     background-color: lightyellow;
 }
-.skills:hover{
-    transition:2s ease;
-    transform:rotate(360deg);
-}
-.project{
+.project
+{
     display:grid;
     border:0;
     padding:20px; 
