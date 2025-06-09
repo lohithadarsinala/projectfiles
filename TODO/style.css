@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.input-group{
+    display: flex;
+}
+#input-type{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 10px;
+}
+button{
+    text-align: center;
+    padding:0px 0px 10px 15px;
+    background: #3eb5e4;
+    border:0;
+}

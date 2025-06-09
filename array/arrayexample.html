@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <script>
+        var cities = ["Delhi", "Hyd"];
+        function GetCount() {
+            document.getElementById("lblCount").innerHTML = "Total number of cities : " + cities.length;
+        }
+        function LoadCities() {
+            document.getElementById("lstCities").innerHTML = "";
+            for (var city of cities) {
+                var option = document.createElement("option");
+                option.text = city;
+                option.value = city;
+                document.getElementById("lstCities").appendChild(option);
+            }
+        }
+        function bodyload() {
+            LoadCities();
+            GetCount();
+        }
+        function AddClick() {
+            var city = document.getElementById("textCity").value;
+            if (cities.indexOf(city) == -1) {
+                cities.push(city);
+                alert(`${city} Added to the list`);
+                LoadCities();
+                document.getElementById("textCity").value = "";
+                GetCount();
+            } else {
+                alert(`${city} Exists`);
+            }
+        }
+        function RemoveClick() {
+            var selectedCity = document.getElementById("lstCities").value;
+            var selectedIndex = cities.indexOf(selectedCity);
+            var flag = confirm(`Are you sure \n Want to delete ${selectedCity}?`);
+            if (flag == true) {
+                cities.splice(selectedIndex, 1);
+                LoadCities();
+                GetCount();
+            }
+        }
+        function ClearClick() {
+            document.getElementById("lstCities").innerHTML = "";
+            document.getElementById("lblCount").innerHTML = "No cities Available";
+        }
+        function SortClick(){
+            cities.sort();
+            LoadCities();
+        }
+    </script>
+</head>
+
+<body class="container-fluid" onload="bodyload()">
+    <div class="col-4">
+        <fieldset>
+            <legend>Add Cities</legend>
+            <div class="input-group">
+                <input type="text" id="textCity" class="form-control">
+                <button onClick="AddClick()" class="btn btn-primary">Add</button>
+            </div>
+            <div class="mb=2 mt-3">
+                  <button onClick="SortClick()" class="btn btn-success">
+                    <span class="bi bi-sort-alpha-down"></span>
+                  </button>
+            </div>
+            <div class="mt-3">
+                <select size="3" id="lstCities" class="form-select">
+
+                </select>
+            </div>
+            <div>
+                <button class="btn btn-danger mt-3" onClick="RemoveClick()"><span
+                        class="bi bi-trash-fill"></span>Remove</button>
+                <button class="btn btn-danger mt-3" onClick="ClearClick()"><span
+                        class="bi bi-trash2"></span>ClearAll</button>
+            </div>
+            <div class="mt-2">
+                <span id="lblCount"></span>
+            </div>
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
